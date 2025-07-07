@@ -1,4 +1,14 @@
-# Python-Fundamentals
+🐍 Fundamentals of Programming – Python Projects
 
-This repository contains projects and code exercises completed as part of the Fundamentals of Programming on course at the University of the People (UoPeople). The course covers the foundational concepts of Python programming, including variables, data types, control flow (conditionals and loops), functions, and basic data structures like lists and dictionaries. Through practical coding assignments and projects, this course aims to build a strong understanding of Python syntax and problem-solving skills, preparing students for more advanced programming challenges.
+This repository contains projects and code exercises completed as part of the Fundamentals of Programming course at the University of the People (UoPeople).
+📘 The course introduces essential Python programming concepts such as:
 
+🔣 Variables and data types
+
+🔁 Control flow (conditionals and loops)
+
+🧮 Functions and modular code
+
+🧺 Data structures like lists and dictionaries
+
+🛠️ Through hands-on assignments and mini-projects, students develop both technical proficiency and problem-solving skills—laying the groundwork for future software development and more advanced programming studies.
