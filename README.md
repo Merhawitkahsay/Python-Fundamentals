@@ -1,4 +1,5 @@
-🐍 Fundamentals of Programming – Python Projects
+<h3> 🐍 Fundamentals of Programming – Python Projects </h3>
+
 
 This repository contains projects and code exercises completed as part of the Fundamentals of Programming course at the University of the People (UoPeople).
 📘 The course introduces essential Python programming concepts such as:
