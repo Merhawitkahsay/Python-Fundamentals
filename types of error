@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runtime and Other Errors</title>
+</head>
+<body>
+  <h4>Runtime Error</h4>
+  <ul>
+    <li><strong>What it is:</strong> An error that occurs while the program is running.</li>
+    <li><strong>When it happens:</strong> The code starts running just fine, but something unexpected crashes it mid-execution.</li>
+    <li><strong>Example:</strong><br />
+      <code>result = 10 / 0  # Division by zero = boom!</code>
+    </li>
+    <li><strong>Common causes:</strong> Dividing by zero, accessing a file that doesn’t exist, using undefined variables, etc.</li>
+  </ul>
+
+  <h4>Compile Error (not typically used in Python)</h4>
+  <ul>
+    <li><strong>What it is:</strong> Errors that stop a program from being compiled into machine code (applies more to languages like C, Java).</li>
+    <li><strong>In Python:</strong> This term isn’t really used because Python is an interpreted language, not a compiled one. Instead, these would just be syntax errors.</li>
+  </ul>
+
+  <h4>Syntax Error</h4>
+  <ul>
+    <li><strong>What it is:</strong> Your code breaks the grammar rules of the language.</li>
+    <li><strong>When it happens:</strong> The interpreter doesn’t even understand what you’re trying to say and refuses to run the code.</li>
+    <li><strong>Example:</strong><br />
+      <code>if x > 10  # Missing colon!<br />print("Oops")</code>
+    </li>
+    <li><strong>Fix:</strong> Make sure your code follows Python’s structure and punctuation exactly.</li>
+  </ul>
+
+  <h4>Semantic Error</h4>
+  <ul>
+    <li><strong>What it is:</strong> The code runs without errors, but it doesn’t do what you meant.</li>
+    <li><strong>When it happens:</strong> Your logic is flawed. The computer does exactly what you said—but not what you intended.</li>
+    <li><strong>Example:</strong><br />
+      <code># Trying to calculate average of two numbers, but used + instead of /<br />average = num1 + num2  # Oops!</code>
+    </li>
+    <li>These are the trickiest to catch because there’s no error message—you have to notice the wrong output yourself.</li>
+  </ul>
+
+  <h4>If your code were a stage play:</h4>
+  <ul>
+    <li>Syntax errors are like misspelling lines in the script.</li>
+    <li>Runtime errors are like the props falling apart mid-performance.</li>
+    <li>Semantic errors are when the actor says their line correctly—but it’s the wrong line for the scene!</li>
+  </ul>
+</body>
+</html>
