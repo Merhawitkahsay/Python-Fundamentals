@@ -1,0 +1,34 @@
+Runtime Error 
+    What it is: An error that occurs while the program is running.
+    When it happens: The code starts running just fine, but something unexpected crashes it mid-execution.
+ Example:
+    result = 10 / 0	 # Division by zero = boom!
+
+    Common causes: Dividing by zero, accessing a file that doesn’t exist, using undefined variables, etc.
+
+Compile Error (not typically used in Python)
+    What it is: Errors that stop a program from being compiled into machine code (applies more to languages like C, Java).
+    In Python: This term isn’t really used because Python is an interpreted language, not a compiled one. Instead, these would just be syntax errors.
+
+Syntax Error
+    What it is: Your code breaks the grammar rules of the language.
+    When it happens: The interpreter doesn’t even understand what you’re trying to say and refuses to run the code.
+Example:
+    if x > 10	 # Missing colon!
+      print("Oops")
+    Fix: Make sure your code follows Python’s structure and punctuation exactly.
+
+Semantic Error
+    What it is: The code runs without errors, but it doesn’t do what you meant.
+    When it happens: Your logic is flawed. The computer does exactly what you said—but not what you intended.
+Example:
+    # Trying to calculate average of two numbers, but used + instead of /
+      average = num1 + num2 	# Oops!
+
+      These are the trickiest to catch because there’s no error message—you have to notice the wrong output yourself.
+
+If your code were a stage play:
+      Syntax errors are like misspelling lines in the script.
+      Runtime errors are like the props falling apart mid-performance.
+      Semantic errors are when the actor says their line correctly—but it’s the wrong line for the scene!
+
